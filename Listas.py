@@ -47,11 +47,26 @@ for i in TodosNum:
         ListaImpares.append(TodosNum[contador])
     else:
         ListaPares.append(TodosNum[contador])
-    contador += 1
+    contador+= 1
 print("Números", TodosNum)
 print("Números Ímpares", ListaImpares)
 print("Números Pares", ListaPares)
 
+#Exercício 6
+print('Notas dos Alunos')
+Aluno1 = [7.5, 9, 8, 10] 
+Aluno2 = [8.5, 9.5, 8, 10]
+Aluno3 = [7.5, 10, 7, 8]
+Aluno4 = [9, 9.5, 10, 10]
+Aluno5 = [5, 6.5, 7, 7,5]
+Aluno6 = [7.5, 7, 8.5, 9]
+Aluno7 = [8.5, 7, 6, 6.5]
+Aluno8 = [10, 10, 10, 10]
+Aluno9 = [9.5, 10, 8.5, 7]
+Aluno10 = [10, 7, 8, 5]
 
-
-
+TodosAlunos = [Aluno1, Aluno2, Aluno3, Aluno4, Aluno5, Aluno6, Aluno7, Aluno8, Aluno9, Aluno10]
+for i in TodosAlunos:
+    média = média / 4
+    TodosAlunos.append(média)
+    
