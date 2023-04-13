@@ -54,19 +54,9 @@ print("Números Pares", ListaPares)
 
 #Exercício 6
 print('Notas dos Alunos')
-Aluno1 = [7.5, 9, 8, 10] 
-Aluno2 = [8.5, 9.5, 8, 10]
-Aluno3 = [7.5, 10, 7, 8]
-Aluno4 = [9, 9.5, 10, 10]
-Aluno5 = [5, 6.5, 7, 7,5]
-Aluno6 = [7.5, 7, 8.5, 9]
-Aluno7 = [8.5, 7, 6, 6.5]
-Aluno8 = [10, 10, 10, 10]
-Aluno9 = [9.5, 10, 8.5, 7]
-Aluno10 = [10, 7, 8, 5]
+listaAlunos = [["Michael" [9, 10, 8, 10]],["Jimmy" [5, 6, 4, 3]],["Kimberly" [10, 7, 8, 8]],["Walter" [10, 9, 7, 10]],["Gustavo" [9, 6, 7, 10]], ["Jesse" [3, 2, 5, 4]],["Lalo" [7, 6, 8, 7]],["Skyler" [9, 8, 6, 10]],["Chuck" [10, 7, 5, 10]],["Hector" [6, 7, 5, 6]]]
 
-TodosAlunos = [Aluno1, Aluno2, Aluno3, Aluno4, Aluno5, Aluno6, Aluno7, Aluno8, Aluno9, Aluno10]
-for i in TodosAlunos:
-    média = média / 4
-    TodosAlunos.append(média)
-    
+def calcularMédia (listaAlunos):
+    média = []
+    for aluno in listaAlunos:
+    média = 
